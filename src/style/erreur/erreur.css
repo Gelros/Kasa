@@ -1,0 +1,22 @@
+.erreur{
+    color:#FF6060;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.erreur h1{
+    font-size: 7rem;
+    margin: 0;
+}
+
+.link {
+    color:#FF6060;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.link p {
+    margin-top: 70px;
+    cursor: pointer;
+}

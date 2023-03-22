@@ -1,0 +1,128 @@
+.logements {
+    width: 90% ;
+    margin: 10px auto;
+}
+
+.react-slideshow-container {
+    display:flex;
+}
+
+.text-color {
+    color:#FF6060;
+}
+
+.background-color {
+    background: #FF6060;
+    color: white;
+    margin: auto 0;
+}
+
+.content{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h1 {
+    max-width: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.loc{
+    margin-top: 10px;
+}
+
+.loc p{
+    margin-top: 5px;
+}
+
+.host {
+    display: flex;
+    margin: auto 0px;
+    margin-top: 0;
+}
+
+.host img {
+    width: 64px ;
+    height: 64px;
+    border-radius: 50px;
+    margin: auto;
+    margin-left: 5px;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.host p {
+    margin: auto;
+}
+
+.tag ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.tag li {
+    padding: 5px 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.img-slide {
+    display: flex;
+    height: 45vh;
+    position: relative;
+}
+
+.img-slide img {
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.img-slide button {
+    background: none;
+    border: 0;
+    height: 100%;
+}
+
+.right-btn {
+    position: absolute;
+    right: 0;
+}
+
+.arrow-img {
+   height: 50px;
+   cursor: pointer;
+}
+
+.left-btn {
+    position: absolute;
+    left: 0;
+}
+
+.dropDownProp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars{
+    margin-top: 5px;
+}
+
+.pro{
+    width: 45%;
+}

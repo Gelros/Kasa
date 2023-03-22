@@ -1,0 +1,71 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px ;
+}
+
+.img-slide {
+    position: relative;
+}
+
+.infos {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background: #FF6060;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.info h4, .icon {
+   margin: auto 5px;
+}
+
+.icon {
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.icon img {
+    width: 20px;
+}
+
+.iconSwitch {
+    transform: rotate(180deg);
+}
+
+.desc {
+    font-size: 0px;
+    opacity: 0;
+    visibility: 0;
+    transition: 0.2s;
+}
+
+.switch {
+    font-size: 16px;
+    opacity: 1;
+    visibility: 1;
+    background: #F7F7F7;
+    color: #FF6060;
+    padding-left: 5px;
+}
+
+.switch ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.count {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    color: white;
+    font-size: 1rem;
+}

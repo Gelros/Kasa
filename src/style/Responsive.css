@@ -1,0 +1,125 @@
+@media screen and (max-width:800px){
+
+    .navigation img{
+        width:30%;
+        height: 80%;
+        margin: auto 0;
+    }
+
+    .navigation a {
+        font-size: 0.9rem;
+        margin-left: 10px;
+    }
+
+    /* ************************** */
+   
+    .home_banner{
+        height: 150px;
+    }
+
+   .home_banner h1{
+    font-size: 1.2rem;
+   }
+
+   /* ************************* */
+
+   .card {
+    height: 300px;
+    width: 100%;
+   }
+
+   .card img {
+    height: 100%;
+    width: 100%;
+   }
+
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    justify-content: center;
+    grid-gap:30px;
+    padding: 20px 0;
+    background: none;
+    }
+
+    /* ***************************** */
+    
+   .footer img{
+    width: 80px;
+   }
+
+   .footer p{
+    font-size: 12px;
+   }
+
+   /* **************Propriete************ */
+
+   .arrow-img{
+     height: 30px;
+   }
+
+   .background-color {
+    font-size: 0.7rem;
+   }
+
+   .content{
+    flex-direction: column;
+   }
+
+   .tag ul{
+    width: 100%;
+   }
+
+   .tag li{
+    margin-right: 5px;
+   }
+
+   .dropDownProp{
+    flex-direction: column;
+   }
+
+   .pro{
+    width: 100%;
+   }
+
+   .identity{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+   }
+
+   .star{
+    margin: 20px 0 20px 0;
+   }
+
+   .star img{
+    width: 20px;
+   }
+
+   /* ******** A propos *********** */
+
+   .about_banner{
+    height: 40vh;
+   }
+
+   .infos{
+    width: 90%;
+   }
+
+
+}
+
+@media screen and (max-width:400px){
+    .tag ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .tag li{
+        margin-right: 0;
+        margin-top: 5px;
+    }
+}

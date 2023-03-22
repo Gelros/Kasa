@@ -1,0 +1,30 @@
+.home_banner {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.306);
+    background: url(../../assets/images/background.png) center/cover;
+    border-radius: 15px;
+}
+.home_banner h1 {
+    margin: auto;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.about_banner {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.306);
+    background: url(../../assets/images/img.png) center/cover;
+    border-radius: 15px;
+}
+
+/* ************************ */
+
+
