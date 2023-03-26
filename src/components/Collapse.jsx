@@ -3,6 +3,7 @@ import "../style/about/collapse.css"
 import DropDown from './DropDown';
 
 const Collapse = (props) => {
+
     return (
     <div className="infos">
        {props.collapse.map((el) => (

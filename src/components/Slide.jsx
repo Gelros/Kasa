@@ -6,7 +6,7 @@ const Slides = ({slides}) => {
 
     const [currentSlide, setCurrentSlide] = useState(0)
 
-    console.log(slides);
+    console.log(currentSlide);
 
     return (
         <div className='img-slide'>

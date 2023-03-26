@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Card = (props) => {
+
+    console.log(props);
     return (
         <Link to={`/property/${props.id}`} className="card">
             <img src={props.cover} alt="Background" />

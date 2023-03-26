@@ -6,7 +6,7 @@ import "../style/home/Slide.css"
 import DropDown from './DropDown';
 import Stars from './Stars';
 
-const Property = (props) => {
+const Property = () => {
 
     const params = useParams()
     const id = params.id
