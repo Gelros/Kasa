@@ -5,6 +5,8 @@ const DropDown = (props) => {
 
     const [anim, setAnime] = useState(false)
 
+    console.log(props);
+
     const classToggle = () => {
         setAnime(!anim)
     }
